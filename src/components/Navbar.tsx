@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="flex fixed -top-0 left-0 right-0 h-16 justify-end p-4 bg-white shadow-xs z-[500]">
+    <nav className=" hidden lg:flex   fixed -top-0 left-0 right-0 h-16 justify-end p-4 bg-white shadow-xs z-[500]">
       <span className="flex absolute -top-10 left-4">
         <Image
           className="dark:invert max-h-48"
